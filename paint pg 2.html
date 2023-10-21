@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+<style>
+   div{
+    border-style: solid;
+    border-color:black;
+    padding: 5px;
+    margin: 5px;
+   } 
+</style>
+</head>
+<body>
+    <h3>Paint continued...</h3>
+<p>*These are the most common types, and also the most basic brands at these stores.
+    Depending on the project and the need, the cost will vary.
+</p>
+<!--The navbar is supposed to let you choose which paint you want from which store.-->
+<nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+    <a class="navbar-brand" href="index.html">Paint Stores</a>
+    <buttton class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+     <span class="navbar-toggler-icon"></span>
+    </buttton>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+         <li class="nav-item active">
+            <a class="nav-link" href="a">WalMart</a>
+         </li>
+         <li class="nav-item">
+            <a class="nav-link" href="a">Lowe's</a>
+         </li>
+         <li class="nav-item">
+            <a class="nav-link" href="a">Sherwinn-Williams</a>
+         </li>
+  <li class="nav-item dropdown">
+    <a class="nav-link dropdown-toggle" href="a" id="navbarNavDropdownMenuLink" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">Paint Types</a>
+    <div class="dropdown-menu" aria-labelledby="navbarNavDropdownMenuLink">
+     <a class="dropdown-item" href="#">flat</a>
+     <a class="dropdown-item" href="#">semi-gloss</a>
+     <a class="dropdown-item" href="#">satin</a>
+    </div>
+   </li>
+  </ul>
+ </div>
+</nav>
+<script srce="node modulesjquery/dist/jquery.js"></script>
+<script src="node modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+  <h3>Let Us Help You Pick Your Paint!</h3>
+</body>
+  <form>
+     <input type="text" name="firstname" placeholder="First Name">
+     <input type="text" name="lastname" placeholder="Last Name"><br>
+     <input type="text" email="email" placeholder="Email"><br>
+     <input type="text" project="project" placeholder="Project"><br>
+
+     <button type="button">Submit</button>
+    
+  </form>
+</html>
+
+
+
